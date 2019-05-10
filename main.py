@@ -58,8 +58,8 @@ def main():
     out_data = [0]*size_int
     for i in range(size_int):
         # print(sum(data3[i:i+M]))
-        if i < 10:
-            print(f"{i} {i+M} {sum(data3[i:i+M])} {sum(data3[i:i+M])//M} {data[i]}")
+        # if i < 10:
+        #     print(f"{i} {i+M} {sum(data3[i:i+M])} {sum(data3[i:i+M])//M} {data[i]}")
         out_data[i] = sum(data3[i:i+M])//M
 
     with open('out2.wav', 'wb') as f:
