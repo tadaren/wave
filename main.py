@@ -80,7 +80,7 @@ def main():
         [f.write(d.to_bytes(byte ,'little', signed=True)) for d in out_data]
 
     plt.plot(data, lw=0.5)
-    plt.plot(data3, lw=0.5)
+    plt.plot(out_data, lw=0.5)
     # # plt.xlim(-10, size_int+10)
     plt.show()
 
